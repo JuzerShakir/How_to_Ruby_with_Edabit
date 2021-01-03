@@ -14,3 +14,20 @@ See the below examples for a better understanding:
 
 Return [] if the given string is empty.
 =end
+
+def pairs(str)
+  str.scan(/../)
+end
+
+print "Enter any word: "
+str = gets.chomp
+
+str_len = str.length % 2
+#p str_len
+
+if str_len != 0
+  str << '*'
+end
+#p str
+
+p pairs(str)
