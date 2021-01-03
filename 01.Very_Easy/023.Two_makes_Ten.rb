@@ -1,0 +1,14 @@
+############ Created on 03-01-21
+=begin
+Create a function that takes two arguments. Both arguments
+are integers, a and b. Return true if one of them is 10 or if
+their sum is 10.
+
+
+makes10(9, 10) ➞ true
+
+makes10(9, 9) ➞ false
+
+makes10(1, 9) ➞ true
+
+=end
