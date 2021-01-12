@@ -11,3 +11,7 @@ of a binary number, return the equivalent decimal value.
 
   binary_to_decimal([1, 1, 1, 1, 1, 0, 1, 1, 0, 1]) ➞ 1005
 =end
+
+def binary_to_decinal(list)
+
+end
