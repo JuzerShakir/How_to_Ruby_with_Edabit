@@ -15,3 +15,7 @@ of a binary number, return the equivalent decimal value.
 def binary_to_decinal(list)
 
 end
+
+puts 'Enter list of binary numbers each separated by comma: '
+list = gets.chomp.split(',')
+
