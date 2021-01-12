@@ -12,10 +12,12 @@ of a binary number, return the equivalent decimal value.
   binary_to_decimal([1, 1, 1, 1, 1, 0, 1, 1, 0, 1]) ➞ 1005
 =end
 
-def binary_to_decinal(list)
-
+def binary_to_decimal(list)
+  str = list.join
+  return str.to_i(2)
 end
 
 puts 'Enter list of binary numbers each separated by comma: '
 list = gets.chomp.split(',')
 
+p binary_to_decimal(list)
