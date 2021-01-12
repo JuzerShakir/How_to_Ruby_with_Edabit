@@ -14,7 +14,7 @@ All the test cases should contain valid numbers.
 =end
 
 def mod(n1, n2)
-
+  return n1 % n2
 end
 
 puts "Enter 2 valid numbers each separated by comma: "
