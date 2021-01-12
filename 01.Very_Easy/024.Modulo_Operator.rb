@@ -16,3 +16,8 @@ All the test cases should contain valid numbers.
 def mod(n1, n2)
 
 end
+
+puts "Enter 2 valid numbers each separated by comma: "
+n1, n2 = gets.chomp.split(',')
+
+p mod(n1.to_i, n2.to_i)
