@@ -18,3 +18,11 @@ The returned array must be sorted in ascending order.
 def largest_numbers(n, arr)
 
 end
+
+puts 'Enter an array of numbers, each separated by comma: '
+arr = gets.chomp.split(',').map(&:to_i)
+
+print 'How many largest no.s you want? '
+n = gets.chomp.to_i
+
+p largest_numbers(n, arr)
