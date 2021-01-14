@@ -43,4 +43,4 @@ arr = gets.chomp.split(',').map(&:to_i)
 print 'How many largest no.s you want? '
 n = gets.chomp.to_i
 
-p largest_numbers(n, arr)
+if n > 0 then p largest_numbers(n, arr) else puts "Please enter a positive constant." end
