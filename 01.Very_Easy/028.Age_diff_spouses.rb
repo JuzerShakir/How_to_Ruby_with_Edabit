@@ -26,3 +26,7 @@ age_difference([2, 4, 6, 32, 27]) ➞ "5 years"
   - The age difference between spouses will not be more
     than 18 years.
 =end
+
+def age_diff(ages)
+
+end
