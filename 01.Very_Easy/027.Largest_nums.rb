@@ -16,7 +16,15 @@ The returned array must be sorted in ascending order.
 =end
 
 def largest_numbers(n, arr)
+  arr_max = []
 
+  while n > 0
+    arr_max << arr.max
+    arr.delete(arr.max)
+    n-=1
+  end
+
+  return arr_max.sort!
 end
 
 puts 'Enter an array of numbers, each separated by comma: '
