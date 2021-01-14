@@ -16,7 +16,8 @@ Notes:
 =end
 
 def sum_polygon(n)
-
+  ans = (n - 2) * 180
+  return ans
 end
 
 print 'Enter no. of sides of polygons: '
