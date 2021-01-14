@@ -28,5 +28,10 @@ age_difference([2, 4, 6, 32, 27]) ➞ "5 years"
 =end
 
 def age_diff(ages)
-
+  return ages
 end
+
+puts 'Enter an array of ages of your house members: '
+ages = gets.chomp.split(',').map(&:to_i)
+
+p age_diff(ages)
