@@ -14,3 +14,7 @@ returns the n largest numbers from the given array.
 
 The returned array must be sorted in ascending order.
 =end
+
+def largest_numbers(n, arr)
+
+end
