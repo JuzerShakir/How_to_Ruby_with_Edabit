@@ -34,10 +34,28 @@ def age_diff(ages)
   spouse_2 = ages.max
   ages.delete_at(ages.index(spouse_2))
 
-  return ages
+  oldest_child = ages.max
+
+  spouse_diff = spouse_1 - spouse_2
+  if spouse_diff > 18 then abort "Spouse age difference is greater than 18 years." end
+
+  case spouse_diff
+    when 0
+      return "No age difference between spouses."
+    when 1
+      return "1 year"
+  end
+
+  spouse_child = spouse_2 - oldest_child
+  if spouse_child < 20 then abort "Younger spouse who is aged #{spouse_2} is not older than the Oldest child aged #{oldest_child} by 20 years." end
+
+  return "#{spouse_diff} years."
 end
 
 puts 'Enter an array of ages of your house members: '
 ages = gets.chomp.split(',').map(&:to_i)
 
-p age_diff(ages)
+ages.delete(0)
+
+if ages.length > 2 then p age_diff(ages)
+else abort "List shoild have atleast ages of both parents and a child." end
