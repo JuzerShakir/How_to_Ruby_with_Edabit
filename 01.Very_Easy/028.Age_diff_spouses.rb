@@ -28,6 +28,12 @@ age_difference([2, 4, 6, 32, 27]) ➞ "5 years"
 =end
 
 def age_diff(ages)
+  spouse_1 = ages.max
+  ages.delete_at(ages.index(spouse_1))
+
+  spouse_2 = ages.max
+  ages.delete_at(ages.index(spouse_2))
+
   return ages
 end
 
