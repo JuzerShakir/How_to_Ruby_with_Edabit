@@ -15,3 +15,11 @@ Notes:
   measures of the angles of an n-sided polygon.
 =end
 
+def sum_polygon(n)
+
+end
+
+print 'Enter no. of sides of polygons: '
+n = gets.chomp.to_i
+
+p sum_polygon(n)
