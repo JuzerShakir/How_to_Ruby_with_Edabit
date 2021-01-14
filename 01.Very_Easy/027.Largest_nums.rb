@@ -24,7 +24,8 @@ def largest_numbers(n, arr)
   while n > 0
     # appends highest num in array
     arr_max << arr.max
-    # deletes high num from user defined array
+    # deletes high num and its duplicate values from
+    # .. user defined array
     arr.delete(arr.max)
     # decreamenting count
     n-=1
@@ -43,4 +44,7 @@ arr = gets.chomp.split(',').map(&:to_i)
 print 'How many largest no.s you want? '
 n = gets.chomp.to_i
 
-if n > 0 then p largest_numbers(n, arr) else puts "Please enter a positive constant." end
+# if n is negative, program will not run and will
+# display following message
+if n > 0 then p largest_numbers(n, arr)
+else puts "Please enter a positive constant." end
