@@ -19,4 +19,6 @@ dice_game([[1, 1], [5, 6], [6, 4]]) ➞ 0
 
 dice_game([[4, 5], [4, 5], [4, 5]]) ➞ 27
 
+John only has two dice and will always give you outcomes
+for three rounds.
 =end
