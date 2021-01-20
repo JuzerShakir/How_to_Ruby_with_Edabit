@@ -12,4 +12,11 @@ But if you roll DOUBLES, your score is instantly wiped to
 
 Create a function which takes in a matrix as input,
 and return John's score after his game has ended.
+
+dice_game([[1, 2], [3, 4], [5, 6]]) ➞ 21
+
+dice_game([[1, 1], [5, 6], [6, 4]]) ➞ 0
+
+dice_game([[4, 5], [4, 5], [4, 5]]) ➞ 27
+
 =end
