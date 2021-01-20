@@ -22,3 +22,22 @@ dice_game([[4, 5], [4, 5], [4, 5]]) ➞ 27
 John only has two dice and will always give you outcomes
 for three rounds.
 =end
+
+def dice_game matrices
+  return matrices
+end
+
+i = 0
+matrices = []
+print "Enter value of 2 dices, each separated by comma: "
+
+while i != 3 do
+  matrix = gets.chomp.split(',').map(&:to_i)
+  if matrix.length != 2 then abort "Please enter desired input." end
+
+  matrices << matrix
+
+  i += 1
+end
+
+p dice_game(matrices)
