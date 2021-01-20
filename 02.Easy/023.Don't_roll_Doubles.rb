@@ -27,7 +27,7 @@ def dice_game matrices
 
   matrices.each do | matrix |
     if matrix[0] == matrix[1]
-      abort 0
+      abort "0"
     end
   end
 
