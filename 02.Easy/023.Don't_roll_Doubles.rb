@@ -24,12 +24,19 @@ for three rounds.
 =end
 
 def dice_game matrices
+
+  matrices.each do | matrix |
+    if matrix[0] == matrix[1]
+      abort 0
+    end
+  end
+
   return matrices
 end
 
 i = 0
 matrices = []
-print "Enter value of 2 dices, each separated by comma: "
+puts "Enter value of 2 dices, each separated by comma: "
 
 while i != 3 do
   matrix = gets.chomp.split(',').map(&:to_i)
