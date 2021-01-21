@@ -18,3 +18,11 @@ numbers in the array is the sequence of consecutive numbers
 between the minimum and maximum of the numbers (inclusive).
 =end
 
+def sum_missing_nums(list)
+  return list
+end
+
+puts "Enter list of numbers each separated by comma:"
+list = gets.chomp.split(',').map(&:to_i)
+
+p sum_missing_nums(list)
