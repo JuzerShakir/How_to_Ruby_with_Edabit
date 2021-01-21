@@ -19,10 +19,18 @@ between the minimum and maximum of the numbers (inclusive).
 =end
 
 def sum_missing_nums(list)
-  return list
+  seq_list = (list.min..list.max).to_a
+
+  missing_list = seq_list - list
+
+  total = 0
+  missing_list.each do | num | total += num end
+
+  if total == 0 then "No Missing Numbers (i.e. all numbers in [#{list.min}, #{list.max}] are present in the list"
+                  else return total end
 end
 
 puts "Enter list of numbers each separated by comma:"
 list = gets.chomp.split(',').map(&:to_i)
 
-p sum_missing_nums(list)
+puts sum_missing_nums(list)
