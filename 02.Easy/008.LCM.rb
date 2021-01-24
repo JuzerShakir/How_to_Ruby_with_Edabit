@@ -1,4 +1,5 @@
 #########
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function that takes two numbers as arguments and return the LCM of the 2 numbers.
 		lcm(3, 5) ➞ 15

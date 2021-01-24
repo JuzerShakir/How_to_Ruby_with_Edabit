@@ -1,4 +1,5 @@
 ########## Build on 02.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
 Create a function that applies a discount d to every number in the array.
 
@@ -17,11 +18,11 @@ def discounts prc, d
 	d = d/100
 	# new arr to hold discount values
 	d_a = []
-	
+
 	# loops through each number and returns array of discount float values
-	# percentage might have more than 1 decimal place, so we round it off to 1 
+	# percentage might have more than 1 decimal place, so we round it off to 1
 	d_a = prc.map do |num| (num*d).round(1) end
-	
+
 	# we check if array contains float value other than .5 that can be converted to int
 	d_a.length.times do |i|
 		#getting array value at that iteration
@@ -35,11 +36,11 @@ def discounts prc, d
 		# calling the value, converting to int
 		deci = deci[1].to_i
 		#p deci
-		
+
 		# checking if value is other than 5, since we want .5 shown in final output...
 		#... we round any other num like 1.2 or 3.4 to int
 		if deci != 5
-			# replacing that float value to int 
+			# replacing that float value to int
 			d_a[i] = num.to_i
 		end
 	end

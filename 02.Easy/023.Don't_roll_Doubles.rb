@@ -1,4 +1,5 @@
 ######### Build on 20 Jan 2021
+########## Ruby version ruby 2.7.2p137
 =begin
 John is playing a dice game. The rules are as follows.
 

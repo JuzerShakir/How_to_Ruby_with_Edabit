@@ -1,7 +1,8 @@
 ########
+######### Ruby version ruby 2.7.2p137
 =begin
-Given a dictionary of how many more pages each ink color can print, 
-output the maximum number of pages the printer can print before any of the colors 
+Given a dictionary of how many more pages each ink color can print,
+output the maximum number of pages the printer can print before any of the colors
 run out.
 
 In other words return the number with least number of ink levels

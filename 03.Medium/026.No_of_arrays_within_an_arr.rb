@@ -1,4 +1,5 @@
 ########## Build on 07.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
 Return the total number of arrays inside a given array.
 

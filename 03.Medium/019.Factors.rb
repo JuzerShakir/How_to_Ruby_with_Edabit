@@ -1,6 +1,7 @@
 ########### Build on 04.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that takes a number as its argument and returns an array of all 
+Create a function that takes a number as its argument and returns an array of all
 its factors.
 
 factorize(12) ➞ [1, 2, 3, 4, 6, 12]

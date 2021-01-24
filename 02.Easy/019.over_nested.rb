@@ -1,4 +1,5 @@
 ##########
+######### Ruby version ruby 2.7.2p137
 =begin
 Create a function that returns the original value from an array with too many sub-arrays.
 
@@ -9,7 +10,7 @@ de_nest([[[[[[[true]]]]]]]) ➞ true
 =end
 ##########
 
- 
+
 def ext arr
 	# using reg exp we extract all the alphabets and numbers user have entered
 	# scan returns an array of words or element that have been extracted

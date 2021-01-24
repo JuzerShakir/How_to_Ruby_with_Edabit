@@ -1,8 +1,9 @@
 ########## Build on 05.12.2020
+########## Ruby version ruby 2.7.2p137
 =begin
 
-Your job is to create a function, that takes 3 numbers: a, b, c and returns true 
-if the last digit of a * b = the last digit of c. Check the examples below for an 
+Your job is to create a function, that takes 3 numbers: a, b, c and returns true
+if the last digit of a * b = the last digit of c. Check the examples below for an
 explanation.
 
 
@@ -24,10 +25,10 @@ def last_dig a, b, c
 	la = a[-1].to_i
 	lb = b[-1].to_i
 	lc = c[-1]
-	
+
 	# multiplies a and b converts to str
 	lalb = (la * lb).to_s
-	
+
 	#checks if last char is same as last char of c
 	if lalb[-1] == lc then true else false end
 end

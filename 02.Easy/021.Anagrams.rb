@@ -1,6 +1,7 @@
 ###########
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that takes two strings and returns either true or false 
+Create a function that takes two strings and returns either true or false
 depending on whether they're anagrams or not.
 
 is_anagram("cristian", "Cristina") ➞ true
@@ -20,7 +21,7 @@ def angrm s1, s2
 	# join method joins all elements of that array returning a string
 	s1_sort = s1.chars.sort(&:casecmp).join
 	s2_sort = s2.chars.sort(&:casecmp).join
-	
+
 	# since we know their can be characters in uppercase and lowercase and ...
 	# ...we want to match it insensitively so we give downcase method....
 	# ... which will lowercase all chars of a string so that we match both strings..

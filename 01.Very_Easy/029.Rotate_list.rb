@@ -1,4 +1,5 @@
 ############## Build on 21 Jan 2021
+######### Ruby version ruby 2.7.2p137
 =begin
 Given a list, rotates the values clockwise by one (the last value
 is sent to the first position).

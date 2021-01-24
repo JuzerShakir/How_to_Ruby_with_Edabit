@@ -1,4 +1,5 @@
 ########## Created at 14 Jan 2021
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function that determines the age difference
 between spouses in a household. The ages ages in years

@@ -1,7 +1,8 @@
 ########### Built on 01.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-Write a function that takes an array and a number as arguments. 
-Add the number to the end of the array, then remove the first element of the array. 
+Write a function that takes an array and a number as arguments.
+Add the number to the end of the array, then remove the first element of the array.
 The function should then return the updated array.
 
 	next_in_line([5, 6, 7, 8, 9], 1) ➞ [6, 7, 8, 9, 1]

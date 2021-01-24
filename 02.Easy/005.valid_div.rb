@@ -1,6 +1,7 @@
 #########
+########## Ruby version ruby 2.7.2p137
 =begin
-Create a function that takes a division equation d and checks if it will return a 
+Create a function that takes a division equation d and checks if it will return a
 whole number without decimals after dividing.
 
 Return "invalid" if division by zero.

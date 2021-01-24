@@ -1,4 +1,5 @@
 ############ Created at 14 Jan 2021
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function that takes two arguments of an
 array of numbers arr and a constant number n and

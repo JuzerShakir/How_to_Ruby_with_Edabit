@@ -1,12 +1,13 @@
 ########## Build on 01.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-In music, notes can be written out in multiple ways (especially for notes on the 
-black keys). Although these notes are spelled out differently, they still are the 
+In music, notes can be written out in multiple ways (especially for notes on the
+black keys). Although these notes are spelled out differently, they still are the
 same note physically.
 
 https://edabit-challenges.s3.amazonaws.com/23KQwnog7Q1jpM7UL4uccJvWqNFx53qoBmAEuqMaGU7hGPNut4YA52MMaZzN7NZesom1bDvb5bT3L2TtQkj5W2wJdwxPTGz.png
 
-Given a musical note, create a function that returns its enharmonic equivalent. 
+Given a musical note, create a function that returns its enharmonic equivalent.
 The examples below should make this clear.
 
 	get_equivalent("D#") ➞ "Eb"
@@ -29,9 +30,9 @@ def get_equivalent note
 		#..increaments by 1..
 		# ..chr converts that int to str
 		if c == 'G' then "Ab" else (c.ord + 1).chr + "b" end
-		
+
 	#whenever ending char is 'b' return value will decrease first char of string...
-	#...and append # to it		
+	#...and append # to it
 	elsif note.end_with? "b"
 		c = note.chr
 		# since output chars range from A-G we specify for 'A' input

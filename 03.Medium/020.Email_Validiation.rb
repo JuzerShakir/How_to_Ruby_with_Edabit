@@ -1,6 +1,7 @@
 ########## Build on 05.12.2020
+########## Ruby version ruby 2.7.2p137
 =begin
-Create a function that accepts a string, checks if it's a valid email address and 
+Create a function that accepts a string, checks if it's a valid email address and
 returns either true or false, depending on the evaluation.
 
     The string must contain an @ character.
@@ -21,12 +22,12 @@ def email id
 		i_at = id.index('@')
 		# since email can have multiple dots, we take index of last dot in id
 		i_dot = id.rindex('.')
-		
+
 		# checks if id is valid
 		# its not valid if id starts with @
 		# for correct id, . will always be later than @
 		if i_at != 0 and i_dot > i_at then true else false end
-	
+
 	else
 		return false
 	end

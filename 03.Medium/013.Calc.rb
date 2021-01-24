@@ -1,4 +1,5 @@
 ########## Build on 03.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
 Create a function that takes two numbers and a mathematical operator + - / *
 and will perform a calculation with the given numbers.

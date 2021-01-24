@@ -1,7 +1,8 @@
 #########
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that will remove any repeated charcter(s) in a word passed to 
-the function. Not just consecutive characters, but characters repeating anywhere in 
+Create a function that will remove any repeated charcter(s) in a word passed to
+the function. Not just consecutive characters, but characters repeating anywhere in
 the input.
 
 	unrepeated("hello") ➞ "helo"
@@ -11,7 +12,7 @@ the input.
 	unrepeated("WWE!!!") ➞ "WE!"
 
 	unrepeated("call 911") ➞ "cal 91"
-	
+
 =end
 #########
 

@@ -1,9 +1,10 @@
 ########### Built on 01.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function where given the number n to count down from, and some words txt, 
+Create a function where given the number n to count down from, and some words txt,
 return a countdown sequence as a string leading up to the words at the end.
 
-Put a full stop after each number and uppercase and add an exclamation mark to the word. 
+Put a full stop after each number and uppercase and add an exclamation mark to the word.
 See the examples below for clarification!
 
 	countdown(10, "Blast Off") ➞ "10. 9. 8. 7. 6. 5. 4. 3. 2. 1. BLAST OFF!"
@@ -17,7 +18,7 @@ See the examples below for clarification!
 def countdown n, s
 	# preparing string for ouput
 	s = s.upcase + "!"
-	
+
 	# loops in reverse, using print to show countdown in same line
 	n.downto(1) { |i| print "#{i}. " }
 	# using print so it shows the output in same line as the loop above

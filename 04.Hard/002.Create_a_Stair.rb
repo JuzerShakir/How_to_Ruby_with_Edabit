@@ -1,4 +1,5 @@
 ########### Build on 21 jan 2021
+######### Ruby version ruby 2.7.2p137
 =begin
 Write a function which takes an integer steps and returns a string
 representing an upward stair with steps representing the number

@@ -1,6 +1,7 @@
 #########
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that accepts a measurement value in inches and returns 
+Create a function that accepts a measurement value in inches and returns
 the equivalent of the measurement value in feet.
 =end
 #########

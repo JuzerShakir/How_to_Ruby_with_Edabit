@@ -1,11 +1,12 @@
 ######## Build on 03.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
 
-This is a reverse coding challenge. Normally you're given explicit directions with how 
-to create a function. Here, you must generate your own function to satisfy the 
+This is a reverse coding challenge. Normally you're given explicit directions with how
+to create a function. Here, you must generate your own function to satisfy the
 relationship between the inputs and outputs.
 
-Your task is to create a function that, when fed the inputs below, produce the 
+Your task is to create a function that, when fed the inputs below, produce the
 sample outputs shown.
 
 [5, 7, 8, 2, 1], 2 ➞ 			[1, 1, 0, 0, 1]
@@ -22,8 +23,8 @@ sample outputs shown.
 
 =end
 =begin
-The pattern here is that there are 2 inputs, 
-First being an array =A and 
+The pattern here is that there are 2 inputs,
+First being an array =A and
 second being an int = n
 
 If n is greater than x element of A then the element of A is printed as is. See ex 4 & 5
@@ -40,14 +41,14 @@ def challenge a, n
 			if n > a[i]
 				# loops through next element
 				next
-				
+
 			else
 				remainder = a[i] % n
 				# remainder value is given in place of original num
 				a[i] = remainder
 			end
 		end
-	rescue 
+	rescue
 		puts "Integer values only"
 	end
 	return a

@@ -1,4 +1,5 @@
 ########
+########## Ruby version ruby 2.7.2p137
 =begin
 Cube the number entered by the user.
 =end

@@ -1,6 +1,7 @@
 ########
+########## Ruby version ruby 2.7.2p137
 =begin
-Create a function that takes the number of wins, draws and losses and calculates 
+Create a function that takes the number of wins, draws and losses and calculates
 the number of points a football team has obtained so far.
 
 -----wins get 3 points

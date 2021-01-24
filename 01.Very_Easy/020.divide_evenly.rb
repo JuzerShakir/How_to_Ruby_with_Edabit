@@ -1,6 +1,7 @@
 ######
+########## Ruby version ruby 2.7.2p137
 =begin
-Given two integers, a and b, return true 
+Given two integers, a and b, return true
 if a can be divided evenly by b. Return false otherwise.
 =end
 ######

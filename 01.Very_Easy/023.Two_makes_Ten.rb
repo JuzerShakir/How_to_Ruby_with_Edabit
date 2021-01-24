@@ -1,4 +1,5 @@
 ############ Created on 03-01-21
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function that takes two arguments. Both arguments
 are integers, a and b. Return true if one of them is 10 or if

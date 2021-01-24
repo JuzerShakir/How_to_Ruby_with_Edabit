@@ -1,4 +1,5 @@
 #########
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function that returns the mean of all digits.
 
@@ -8,7 +9,7 @@ Create a function that returns the mean of all digits.
 
 	mean(666) ➞ 6
 
-The mean of all digits is the sum of digits / how many digits there are 
+The mean of all digits is the sum of digits / how many digits there are
 (e.g. mean of digits in 512 is (5+1+2)/3(number of digits) = 8/3=2).
 =end
 #########
@@ -17,7 +18,7 @@ def mean num
 	#length of number
 	itr = num.length
 	total = 0
-	
+
 	itr.times do |n|
 		total += num[n]
 	end

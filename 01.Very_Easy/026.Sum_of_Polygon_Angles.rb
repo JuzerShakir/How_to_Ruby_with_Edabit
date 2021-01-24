@@ -1,4 +1,5 @@
 ############# Created at 14 Jan 2021
+########## Ruby version ruby 2.7.2p137
 =begin
 Given an n-sided regular polygon n, return the total
 sum of internal angles (in degrees).

@@ -1,4 +1,5 @@
 ########
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function that takes two numbers as arguments and return their sum.
 =end

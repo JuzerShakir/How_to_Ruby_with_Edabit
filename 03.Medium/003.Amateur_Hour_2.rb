@@ -1,6 +1,7 @@
 ######### Built on 30.11.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that takes time1 and time2 and return how many hours have passed 
+Create a function that takes time1 and time2 and return how many hours have passed
 between the two times.
 
 		hours_passed("3:00 AM", "9:00 AM") ➞ "6 hours"
@@ -19,7 +20,7 @@ def hours_passed time1, time2
 	# since difference of DateTime returns value in days, we convert in hours
 	# and convert to int for nice whole num
 	hours = ((time2 - time1) * 24).to_i
-	
+
 	return "{#hours} hours"
 end
 

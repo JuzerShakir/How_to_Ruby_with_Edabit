@@ -1,4 +1,5 @@
 #######
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function that takes voltage and current and returns the calculated power.
 =end

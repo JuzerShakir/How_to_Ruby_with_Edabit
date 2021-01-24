@@ -1,13 +1,14 @@
 ##########
+######### Ruby version ruby 2.7.2p137
 =begin
 Create a function to extract the name of the subreddit from its URL.
 
 	sub_reddit("https://www.reddit.com/r/funny/") ➞ "funny"
 
 	sub_reddit("https://www.reddit.com/r/relationships/") ➞ "relationships"
-	
+
 	sub_reddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyinteresting"
-	
+
 =end
 ##########
 
@@ -22,6 +23,6 @@ url = gets.chop
 
 puts reddit url
 # below are 2 methods of regular exp we can give to extract desired results but first 1 is more accurate
-#str = "https://www.reddit.com/r/funny/".scan(/(\w+)\/\z/) 
+#str = "https://www.reddit.com/r/funny/".scan(/(\w+)\/\z/)
 #str = "https://www.reddit.com/r/funny/".scan(/r\/(\w+)/)
 

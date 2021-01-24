@@ -1,6 +1,7 @@
 ########
+########## Ruby version ruby 2.7.2p137
 =begin
-Create a function that finds the maximum range of a triangle's third edge, 
+Create a function that finds the maximum range of a triangle's third edge,
 where the side lengths are all integers.
 =end
 ########

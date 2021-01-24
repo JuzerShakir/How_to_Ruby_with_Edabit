@@ -1,11 +1,12 @@
 #########
+######### Ruby version ruby 2.7.2p137
 =begin
 which number is greater
 =end
 #########
 
 def max_num n1, n2
-	if n1 > n2 
+	if n1 > n2
 		return n1
 	else
 		return n2

@@ -1,4 +1,5 @@
 ######### Build on 12 Jan 2021
+########## Ruby version ruby 2.7.2p137
 =begin
 In mathematics and digital electronics, a binary number
 is a number expressed in the base-2 numeral system or

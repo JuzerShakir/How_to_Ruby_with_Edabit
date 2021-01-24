@@ -1,4 +1,5 @@
 #######
+########## Ruby version ruby 2.7.2p137
 =begin
 Write a function that takes an integer minutes and converts it to seconds.
 =end
@@ -8,7 +9,7 @@ Write a function that takes an integer minutes and converts it to seconds.
 def min2sec min
 	#since each min has 60 sec
 	sec = min * 60
-	
+
 	return sec
 end
 

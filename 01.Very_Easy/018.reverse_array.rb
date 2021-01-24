@@ -1,4 +1,5 @@
 #######
+########## Ruby version ruby 2.7.2p137
 =begin
 Write a function to reverse an array.
 =end

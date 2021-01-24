@@ -1,6 +1,7 @@
 ########## Build on 01.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-Write a function that has two parameters: orders and cost. 
+Write a function that has two parameters: orders and cost.
 Return any orders that are greater than the cost.
 
 	expensive_orders({ "a" => 3000, "b" => 200, "c" => 1050 }, 1000)
@@ -12,7 +13,7 @@ Return any orders that are greater than the cost.
 	expensive_orders({ "Deluxe Burger" => 35, "Icecream Shake" => 4, "Fries" => 5 }, 40)
 ➞ {}
 =end
-########## 
+##########
 
 def expensive_orders orders_hash, cost
 	#returns a new hash consisting of entries for which price is greater than cost
@@ -26,12 +27,12 @@ i = gets.chomp.to_i
 # declaring hash
 orders_hash = {}
 
-i.times do 
+i.times do
 	print "Enter the name of item: "
 	item = gets.chomp
 	print "Enter the price of item: "
 	price = gets.chomp.to_i
-	
+
 	# appending new values to hash
 	orders_hash[item] = price
 	# outputs an empty line between each loop

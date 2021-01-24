@@ -1,4 +1,5 @@
 ############ Created on 03-01-21
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function which takes an argument of string str and
 returns an array of two-paired characters. If the string has

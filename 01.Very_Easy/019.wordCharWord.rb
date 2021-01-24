@@ -1,12 +1,13 @@
 #######
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that will put the first argument, a character, 
+Create a function that will put the first argument, a character,
 between every word in the second argument, a string.
 =end
 #######
 
 def add c, str
-	# c replaces space character in str, '!' makes sure that changes are saved in original str 
+	# c replaces space character in str, '!' makes sure that changes are saved in original str
 	str.gsub!(' ', c)
 	return str
 end

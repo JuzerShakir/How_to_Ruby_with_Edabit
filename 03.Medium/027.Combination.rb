@@ -1,7 +1,8 @@
 ######### Build on 07.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that takes a variable number of arguments, each argument representing 
-the number of items in a group, and returns the number of permutations (combinations) 
+Create a function that takes a variable number of arguments, each argument representing
+the number of items in a group, and returns the number of permutations (combinations)
 of items that you could get by taking one item from each group.
 
 combinations(2, 3) ➞ 6

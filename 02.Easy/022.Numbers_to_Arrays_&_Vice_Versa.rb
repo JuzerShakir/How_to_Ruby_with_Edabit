@@ -1,4 +1,5 @@
 ########## Build on 20 Jan 2021
+######### Ruby version ruby 2.7.2p137
 =begin
 Write 2 functions
 to_array(), which converts a number to an array of its digits.

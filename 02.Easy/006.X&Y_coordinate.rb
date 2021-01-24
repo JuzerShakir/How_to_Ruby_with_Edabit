@@ -1,6 +1,7 @@
 #######
+########## Ruby version ruby 2.7.2p137
 =begin
-Create a function that converts two arrays of x- and y- coordinates into an array 
+Create a function that converts two arrays of x- and y- coordinates into an array
 of (x, y) coordinates.
 
 	convert_cartesian([1, 5, 3, 3, 4], [5, 8, 9, 1, 0])
@@ -15,7 +16,7 @@ def convert_cartesian x, y
 	# first element contains an array so does second element
 	trans << x
 	trans << y
-	
+
 	# transposes
 	return trans.transpose
 end

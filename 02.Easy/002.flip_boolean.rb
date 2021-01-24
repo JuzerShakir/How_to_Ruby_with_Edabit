@@ -1,6 +1,7 @@
 ########
+########## Ruby version ruby 2.7.2p137
 =begin
-Create a function that reverses a boolean value and returns the string 
+Create a function that reverses a boolean value and returns the string
 "boolean expected" if another variable type is given.
 
 reverse(true) ➞ false

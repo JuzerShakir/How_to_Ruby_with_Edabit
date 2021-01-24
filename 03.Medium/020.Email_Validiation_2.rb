@@ -1,6 +1,7 @@
 ########## Build on 05.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that accepts a string, checks if it's a valid email address and 
+Create a function that accepts a string, checks if it's a valid email address and
 returns either true or false, depending on the evaluation.
 
     The string must contain an @ character.

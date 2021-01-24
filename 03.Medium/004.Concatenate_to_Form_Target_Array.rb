@@ -1,6 +1,7 @@
 ######### Built on 30.11.2020
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that returns true if smaller arrays can concatenate to 
+Create a function that returns true if smaller arrays can concatenate to
 form the target array and false otherwise.
 
 	can_concatenate([[1, 2, 3, 4], [5, 6], [7]], [1, 2, 3, 4, 5, 6, 7]) ➞ true
@@ -21,7 +22,7 @@ Arrays should concatenate to create the final array exactly (see examples #3 and
 def concatenate outer_a, target
 	# since this array is nested we flatten it to give 1 dimensional array, unnested array
 	outer_a.flatten!
-	
+
 	# == operator check if both arrays have similar lengths and each element is....
 	#...equal to corresponding element of other array.
 	# since the input by user will not always be sorted to compare corresponding...

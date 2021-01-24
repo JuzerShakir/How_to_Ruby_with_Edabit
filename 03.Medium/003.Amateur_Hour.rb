@@ -1,6 +1,7 @@
 ######### uilt on 30.11.2020
+########## Ruby version ruby 2.7.2p137
 =begin
-Create a function that takes time1 and time2 and return how many hours have passed 
+Create a function that takes time1 and time2 and return how many hours have passed
 between the two times.
 
 		hours_passed("3:00 AM", "9:00 AM") ➞ "6 hours"
@@ -18,9 +19,9 @@ def hours_passed time_1, time_2
 	sec = time_2 - time_1
 	# sec into mins
 	mins = sec / 60
-	# mins to hours, returns nice whole num	
+	# mins to hours, returns nice whole num
 	hours = (mins / 60).round
-	
+
 	return "#{hours} hours."
 end
 

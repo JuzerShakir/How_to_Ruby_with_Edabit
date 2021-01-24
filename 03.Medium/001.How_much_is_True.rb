@@ -1,4 +1,5 @@
 #########
+########## Ruby version ruby 2.7.2p137
 =begin
 Create a function which returns the number of true values there are in an array.
 

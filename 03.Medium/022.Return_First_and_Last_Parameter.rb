@@ -1,10 +1,11 @@
 ########## Build on 05.12.2020
+########## Ruby version ruby 2.7.2p137
 =begin
 Write two functions:
 
     first_arg() should return the first parameter passed in.
     last_arg() should return the last parameter passed in.
-		
+
 		first_arg(1, 2, 3) ➞ 1
 
 		last_arg(1, 2, 3) ➞ 3
@@ -14,7 +15,7 @@ Write two functions:
 		last_arg(8) ➞ 8
 
 Return nil if the function takes no parameters.
-If the function only takes in one parameter, the first_arg and last_arg functions 
+If the function only takes in one parameter, the first_arg and last_arg functions
 should return the same value.
 
 =end

@@ -1,4 +1,5 @@
 ########
+########## Ruby version ruby 2.7.2p137
 =begin
 Write a function that takes the base and height of a triangle and return its area.
 =end

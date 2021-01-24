@@ -1,6 +1,7 @@
 #########
+######### Ruby version ruby 2.7.2p137
 =begin
-Create a function that takes a string as its argument and returns the string in 
+Create a function that takes a string as its argument and returns the string in
 reversed order.
 =end
 #########

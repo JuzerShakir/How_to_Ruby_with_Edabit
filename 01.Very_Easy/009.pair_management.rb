@@ -1,4 +1,5 @@
 ########
+######### Ruby version ruby 2.7.2p137
 =begin
 Given two arguments, return an array which contains these two arguments.
 =end

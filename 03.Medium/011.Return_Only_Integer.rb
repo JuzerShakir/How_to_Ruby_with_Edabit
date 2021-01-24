@@ -1,4 +1,5 @@
 ########## Build on 02.12.2020
+######### Ruby version ruby 2.7.2p137
 =begin
 Write a function that takes an array of elements and returns only the integers.
 
@@ -17,12 +18,12 @@ def intOnly arr
 	# select loops through each element of array
 	#returns an array of elements which are not int
 	unreq = arr.select { |ele| ele.match(/\D/)}
-	
+
 	#now we have an array of element which we dont require,....
 	#..we substract this from original array returning elements that are int we need
 	# new_arr have all element as whole num
 	new_arr = arr - unreq
-	
+
 	# since all elements are str we convert to int
 	return new_arr.map(&:to_i)
 end

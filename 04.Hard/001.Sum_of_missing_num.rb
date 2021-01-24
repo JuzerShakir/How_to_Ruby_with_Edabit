@@ -1,4 +1,5 @@
 ######### Build on 21 Jan 2021
+######### Ruby version ruby 2.7.2p137
 =begin
 Create a function that returns the sum of missing numbers
 from the given array.
