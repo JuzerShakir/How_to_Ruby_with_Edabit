@@ -1,0 +1,31 @@
+              length        Vowels
+(below names return TRUE)
+Daniel          6             3
+Paul            4             2
+Joshua          6             3
+George          6             3
+Eric            4             2
+Samuel          6             3
+Jose            4             2
+Adam            4             2
+Sean            4             2
+Austin          6             3
+Noah            4             2
+Willie          6             3
+Alan            4             2
+Juan            4             2
+Anna            4             2
+
+
+(below names return FALSE)
+John            4             1
+Joseph          6             2
+Thomas          6             2
+Donald          6             2
+Mark            4             1
+
+The pattern is that first we need to see if the length of names are even, if not test will retrun False.
+If length of names is even then it checks whether the number of vowels. Suppose the name length is 4 then it should have 2 vowels, if name length is 6 then it should have 3 vowels so on and so forth.
+
+Formula  is :
+    number of vowels in name * 2 == length of name
