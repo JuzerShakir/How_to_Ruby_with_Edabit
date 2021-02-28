@@ -1,0 +1,2 @@
+Make a function using the && operator.
+true is returned if both a and b are true else false.

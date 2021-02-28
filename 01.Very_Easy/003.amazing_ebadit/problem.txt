@@ -1,0 +1,2 @@
+Create a function that takes a string and changes the word amazing to not amazing.
+Return the string without any change if the word Juzer is part of the string.
