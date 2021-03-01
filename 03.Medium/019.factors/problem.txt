@@ -1,0 +1,10 @@
+Create a function that takes a number as its argument and returns an array of all
+its factors.
+
+factorize(12) ➞ [1, 2, 3, 4, 6, 12]
+
+factorize(4) ➞ [1, 2, 4]
+
+factorize(17) ➞ [1, 17]
+
+The input integer will be positive.

@@ -1,0 +1,14 @@
+In music, notes can be written out in multiple ways (especially for notes on the
+black keys). Although these notes are spelled out differently, they still are the
+same note physically.
+
+https://edabit-challenges.s3.amazonaws.com/23KQwnog7Q1jpM7UL4uccJvWqNFx53qoBmAEuqMaGU7hGPNut4YA52MMaZzN7NZesom1bDvb5bT3L2TtQkj5W2wJdwxPTGz.png
+
+Given a musical note, create a function that returns its enharmonic equivalent.
+The examples below should make this clear.
+
+  get_equivalent("D#") ➞ "Eb"
+
+  get_equivalent("Gb") ➞ "F#"
+
+  get_equivalent("Bb") ➞"A#"

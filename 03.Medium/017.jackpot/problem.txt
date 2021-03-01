@@ -1,0 +1,13 @@
+Create a function that takes an array (slot machine outcome) and returns true if
+all elements in the array are identical, and false otherwise. The array will contain
+4 elements.
+
+test_jackpot(["abc", "abc", "abc", "abc"]) ➞ true
+
+test_jackpot(["SS", "SS", "SS", "SS"]) ➞ true
+
+test_jackpot(["&&", "&", "&&&", "&&&&"]) ➞ false
+
+test_jackpot(["SS", "SS", "SS", "Ss"]) ➞ false
+
+The elements must be exactly identical for there to be a jackpot.

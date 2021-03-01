@@ -1,0 +1,8 @@
+Return true if the sum of ASCII values of the first string is same as the sum of ASCII
+values of the second string, otherwise return false.
+
+  same_ascii("a", "a") ➞ true
+
+  same_ascii("AA", "B@") ➞ true
+
+  same_ascii("EdAbIt", "EDABIT") ➞ false

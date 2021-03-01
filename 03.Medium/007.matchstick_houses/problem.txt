@@ -1,0 +1,10 @@
+https://edabit-challenges.s3.amazonaws.com/matchstick_houses.png
+
+Create a function that takes a number (step) as an argument and returns the number
+of matchsticks in that step. See step 1, 2 and 3 in the image link above.
+
+  match_houses(1) ➞ 6
+
+  match_houses(4) ➞ 21
+
+  match_houses(87) ➞ 436

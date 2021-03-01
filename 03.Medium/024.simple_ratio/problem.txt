@@ -1,0 +1,11 @@
+Create a function which simplifies a given fraction into its simplest ratio.
+Return the fraction as a string.
+
+simplify_frac("2/4") ➞ "1/2"
+
+simplify_frac("15/25") ➞ "3/5"
+
+simplify_frac("4/9") ➞ "4/9"
+
+Fractions are given as strings.
+Return the same fraction if it is already in its simplified ratio (see example #3).

@@ -1,0 +1,9 @@
+Create a function that takes time1 and time2 and return how many hours have passed
+between the two times.
+
+    hours_passed("3:00 AM", "9:00 AM") ➞ "6 hours"
+
+    hours_passed("2:00 PM", "4:00 PM") ➞ "2 hours"
+
+time1 will always be the starting time and time2 the ending time.
+Return "no time passed" if time1 is equal to time2.
