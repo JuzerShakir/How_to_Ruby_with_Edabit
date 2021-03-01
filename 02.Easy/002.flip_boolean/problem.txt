@@ -1,0 +1,10 @@
+Create a function that reverses a boolean value and returns the string
+"boolean expected" if another variable type is given.
+
+reverse(true) ➞ false
+
+reverse(false) ➞ true
+
+reverse(0) ➞ "boolean expected"
+
+reverse(nil) ➞ "boolean expected"

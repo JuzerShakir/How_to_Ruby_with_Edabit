@@ -1,0 +1,7 @@
+Create a function to extract the name of the subreddit from its URL.
+
+  sub_reddit("https://www.reddit.com/r/funny/") ➞ "funny"
+
+  sub_reddit("https://www.reddit.com/r/relationships/") ➞ "relationships"
+
+  sub_reddit("https://www.reddit.com/r/mildlyinteresting/") ➞ "mildlyinteresting"

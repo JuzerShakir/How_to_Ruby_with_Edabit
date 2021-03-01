@@ -1,0 +1,8 @@
+Create a function that takes two strings and returns either true or false
+depending on whether they're anagrams or not.
+
+is_anagram("cristian", "Cristina") ➞ true
+
+is_anagram("Dave Barry", "Ray Adverb") ➞ true
+
+is_anagram("Nope", "Note") ➞ false

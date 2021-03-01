@@ -1,0 +1,3 @@
+Create a function that takes two numbers as arguments and return the LCM of the 2 numbers.
+    lcm(3, 5) ➞ 15
+    lcm(14, 28) ➞ 28

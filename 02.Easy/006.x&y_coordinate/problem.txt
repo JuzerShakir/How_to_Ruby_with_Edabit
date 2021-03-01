@@ -1,0 +1,5 @@
+Create a function that converts two arrays of x- and y- coordinates into an array
+of (x, y) coordinates.
+
+  convert_cartesian([1, 5, 3, 3, 4], [5, 8, 9, 1, 0])
+      ➞ [[1, 5], [5, 8], [3, 9], [3, 1], [4, 0]]
