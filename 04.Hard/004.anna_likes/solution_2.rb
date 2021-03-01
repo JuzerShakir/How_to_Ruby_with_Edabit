@@ -1,3 +1,8 @@
+########## Build on 26 Jan 2021
+########## Ruby version ruby 2.7.2p137
+
+# refer 'formula.txt' file to understand the solution
+
 def anna_likes name
   # saves value of length of name
   name_l = name.length
