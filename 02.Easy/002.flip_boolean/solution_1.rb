@@ -3,11 +3,13 @@
 
 def reverse b
 	# casecmp checks if string is true regardless of upper and lower character given by user
-	# returns boolean value, if true, boolean will then be flipped!
+	# true, if 'true'
 	if b.casecmp?("true")
+		# boolean will be flipped!
 		return false
-	#returns boolean value, if false, boolean will then be flipped!
+	# true, if 'false',
 	elsif b.casecmp?('false')
+		# boolean will then be flipped!
 		return true
 	# if string doesn't matches to users input
 	else
