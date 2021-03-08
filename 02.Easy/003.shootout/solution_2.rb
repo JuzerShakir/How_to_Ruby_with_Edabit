@@ -1,3 +1,6 @@
+######## Built on 8th March 2021
+######## Ruby version ruby 2.7.2p137
+
 def showdown p1, p2
   # since we know user has typed Bang, we capture the index of only 'Bang!' str
   # user could also type "BBBBBang!" so from this str we capture index of 'Bang!'
