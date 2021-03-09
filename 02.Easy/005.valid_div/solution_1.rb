@@ -6,7 +6,7 @@ def div n, m
 	if m == 0 then "invalid" elsif n % m == 0 then true else false end
 end
 
-puts "Enter division ina form of 'x/y': "
+puts "Enter division in a form of 'x/y': "
 n, m = gets.chomp.split('/').map(&:to_i)
 
 puts div n, m
