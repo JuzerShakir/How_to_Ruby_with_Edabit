@@ -1,5 +1,7 @@
 ########
 ######## Ruby version ruby 2.7.2p137
+# => User can cheat in this program by inputing only 'B'
+# first like 'B.. ...Bang!' since it only checks index of single 'B' char.
 
 def showdown p1, p2
 	# checks if the input contains 'Bang',
@@ -15,6 +17,7 @@ def showdown p1, p2
 	if p1_idx < p2_idx then "p1" elsif p1_idx > p2_idx then "p2" else "tie" end
 end
 
+# expect user to input 'Bang!' or will throw NoMethodError in if statement
 puts "Enter 'Bang!': "
 p1 = gets.chomp
 p2 = gets.chomp

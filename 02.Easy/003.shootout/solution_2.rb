@@ -1,5 +1,6 @@
 ######## Built on 8th March 2021
 ######## Ruby version ruby 2.7.2p137
+# => this program checks for correct input
 
 def showdown p1, p2
   # since we know user has typed Bang, we capture the index of only 'Bang!' str
@@ -23,7 +24,7 @@ puts "Enter 'Bang!': "
 p1 = gets.chomp
 p2 = gets.chomp
 
-# checks if the input contains 'Bang!',
+# checks if the input contains 'Bang!', else function doesn't run
 if p1.include?("Bang!") && p2.include?("Bang!")
   # then calls func
   puts showdown p1, p2
