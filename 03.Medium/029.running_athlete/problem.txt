@@ -1,0 +1,20 @@
+=> No description.
+=> Guess the code from test cases.
+
+=> input
+p running_athlete(["run", "jump", "run", "jump", "run"], "_|_|_")
+p running_athlete(["run", "jump", "run", "run", "run"], "_|_|_")
+p running_athlete(["jump", "jump", "jump", "jump", "jump"],"_|_|_")
+p running_athlete(["jump","jump","jump","jump","jump","jump","jump","jump","jump","jump"],"__________")
+
+=> output
+_|_|_
+_|_/_
+x|x|x
+xxxxxxxxxx
+
+My description:
+A function 'running_athelte' takes 2 argument, 1st is a list and 2nd arg is a str. the list has 2 possible inputs either run or jump. and string has either '_'  or '|'.
+if you see the first ouput of and input of string var, they both match and for others it doesn't, the ouput is different. analyzing closely why it is, I see a pattern. the pattern is that when list has an element of 'run', the corresponding string var should have '_' and then the output will be '_'. When string has '|', its corresponding(with respect to index) value in list should be 'jump' and then the ouput will be '|'.
+so if we both input of list and string match the output is same as input of str variable. But what if it doesn't match. The 2nd and 3rd output tells the answer. when str has '_' and corresponding value in list is jump(which is wrong) then output will be 'x' and if str has '|' and value in list is run then output will be '/'.
+with this info, now we can program it.

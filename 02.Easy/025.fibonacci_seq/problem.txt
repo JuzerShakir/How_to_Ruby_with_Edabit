@@ -1,0 +1,6 @@
+The Fibonacci Sequence is the sequence of numbers 
+(Fibonacci Numbers) whose sum is the two preceding 
+numbers (e.g. 0, 1, 1, 2, 3, etc). Using 0 and 1 
+as the starting values, create a function that 
+returns an array containing all of the Fibonacci 
+numbers less than 255.
