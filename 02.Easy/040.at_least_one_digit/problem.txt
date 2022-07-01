@@ -1,0 +1,12 @@
+Write a regular expression that matches a string if it contains at least one digit.
+
+Examples
+has_digit("c8") ➞ true
+
+has_digit("23cc4") ➞ true
+
+has_digit("abwekz") ➞ false
+
+has_digit("sdfkxi") ➞ false
+Notes
+This challenge is designed to use RegEx only.
