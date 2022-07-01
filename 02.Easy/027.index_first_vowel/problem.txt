@@ -1,0 +1,17 @@
+Create a function that returns the index of the first vowel in a string.
+ ---------------------------
+Examples
+first_vowel("apple") ➞ 0
+
+first_vowel("hello") ➞ 1
+
+first_vowel("STRAWBERRY") ➞ 3
+
+first_vowel("pInEaPPLe") ➞ 1
+
+-------------------------
+Notes
+Input will be single words.
+Characters in words will be upper or lower case.
+"y" is not considered a vowel.
+Input always contains a vowel.

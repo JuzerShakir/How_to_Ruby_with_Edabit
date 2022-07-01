@@ -1,0 +1,12 @@
+Create a function that takes a phrase and transforms each word using the following rules:
+
+Keep first and last character the same.
+Transform middle characters into a dash -.
+Examples
+partially_hide("skies were pretty") ➞ "s---s w--e p----y"
+
+partially_hide("red is not my color") ➞ "r-d is n-t my c---r"
+
+partially_hide("She rolled her eyes") ➞ "S-e r----d h-r e--s"
+
+partially_hide("Harry went to fight the basilisk") ➞ "H---y w--t to f---t t-e b------k"
