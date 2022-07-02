@@ -1,0 +1,19 @@
+State Names and Abbreviations
+Create a function that filters out an array of state names into two categories based on the second parameter.
+
+Abbreviations abb
+Full names full
+Examples
+filter_state_names(["Arizona", "CA", "NY", "Nevada"], "abb")
+➞ ["CA", "NY"]
+
+filter_state_names(["Arizona", "CA", "NY", "Nevada"], "full")
+➞ ["Arizona", "Nevada"]
+
+filter_state_names(["MT", "NJ", "TX", "ID", "IL"], "abb")
+➞ ["MT", "NJ", "TX", "ID", "IL"]
+
+filter_state_names(["MT", "NJ", "TX", "ID", "IL"], "full")
+➞ []
+Notes
+State abbreviations will always be in uppercase.
