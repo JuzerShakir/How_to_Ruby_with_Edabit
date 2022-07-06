@@ -1,0 +1,17 @@
+Convert Key, Values in a Hash to Array
+Write a function that converts a hash into a array of keys and values.
+
+Examples
+hash_to_array({
+  D: 1,
+  B: 2,
+  C: 3
+}) ➞ [[:B, 2], [:C, 3], [:D, 1]]
+
+hash_to_array({
+  likes: 2,
+  dislikes: 3,
+  followers: 10
+}) ➞ [[:dislikes, 3], [:followers, 10], [:likes, 2]]
+Notes
+Return the elements in the array in alphabetical order.

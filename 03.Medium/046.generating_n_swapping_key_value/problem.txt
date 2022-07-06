@@ -1,0 +1,20 @@
+Generating and Swapping Key-Value-Pairs in Hash
+Create a function that takes:
+
+An array of keys.
+An array of values (same size).
+true, if key and value should be swapped, else false.
+The function returns the constructed hash. Empty arrays return an empty hash.
+
+Examples
+swap_h([1, 2, 3], ["one", "two", "three"], false)
+➞ { 1 => "one", 2 => "two", 3 => "three" }
+
+swap_h([1, 2, 3], ["one", "two", "three"], true)
+➞ { "one" => 1, "two" => 2, "three" => 3 }
+
+swap_h(["Paris", 3, 4.5], ["France", "is odd", "is half of 9"], true)
+➞ { "France" => "Paris", "is odd" => 3, "is half of 9" => 4.5 }
+Notes
+To make it simple, use only hashable (= immutable) keys.
+To make it simple, use only unique keys.

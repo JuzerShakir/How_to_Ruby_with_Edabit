@@ -1,0 +1,17 @@
+Names, Ages and Occupations
+Write a function that maps a string into an array of name, string, and occupation pairs.
+
+Examples
+organize("John Mayer, 41, Singer, Emily Blunt, 36, Actor") ➞ [
+  {:name=>"John Mayer", :age=>"41", :occupation=>"Singer"},
+  {:name=>"Emily Blunt", :age=>"36", :occupation=>"Actor"}
+]
+
+organize("Conan O'Brien, 56, Talk Show Host, Anna Wintour, 69, Editor") ➞ [
+  {:name=>"Conan O'Brien", :age=>"56", :occupation=>"Talk Show Host"},
+  {:name=>"Anna Wintour", :age=>"69", :occupation=>"Editor"}
+]
+
+organize("") ➞ []
+Notes
+Return an empty array if given an empty string.

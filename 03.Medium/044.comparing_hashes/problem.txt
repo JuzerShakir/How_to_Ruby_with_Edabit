@@ -1,0 +1,11 @@
+Comparing Hashes: Capturing Non-Identical Values
+A function takes in two hashes as input. Both hashes contain exactly the same keys. Return an array of keys where the values in each hash differs.
+
+Examples
+differs({a: 1, b: 2, c: 3}, {a: 3, b: 2, c: 1}) ➞ ["a", "c"]
+
+differs({a: 1, b: 1, c: 1}, {a: 2, b: 2, c: 2}) ➞ ["a", "b", "c"]
+
+differs({a: 3, b: 3, c: 3}, {a: 3, b: 3, c: 3}) ➞ []
+Notes
+N/A

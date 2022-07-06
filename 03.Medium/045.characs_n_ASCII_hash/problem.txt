@@ -1,0 +1,13 @@
+Characters and ASCII Code Hash
+Write a function that transforms an array of characters into an array of hashes, where:
+
+The keys are the characters themselves.
+The values are the ASCII codes of those characters.
+Examples
+to_hash(["a", "b", "c"]) ➞ [{"a" => 97}, {"b" => 98}, {"c" => 99}]
+
+to_hash(["^"]) ➞ [{"^" => 94}]
+
+to_hash([]) ➞ []
+Notes
+N/A
