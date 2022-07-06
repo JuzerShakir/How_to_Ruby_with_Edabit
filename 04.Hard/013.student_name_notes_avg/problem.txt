@@ -1,0 +1,11 @@
+Get Students with Names and Notes Average
+Create a function that takes an array of hashes like { name=> "John", notes=> [3, 5, 4]} and returns an array of hashes like { name=> "John", avgNote=> 4 }. If student has no notes (an empty array) then avgNote is zero.
+
+Examples
+[
+  { name=> "John", notes=> [3, 5, 4]}
+] ➞ [
+  { name=> "John", avgNote=> 4 }
+]
+Notes
+Round the avgNote to a whole number.

@@ -1,0 +1,16 @@
+Intersection of Two Hashes
+Write a function that takes as input two different hashes and filters the keys in each hash to only keep keys that exist in both hashes. Store your result as an array with two hashes.
+
+Examples
+hash1 = {a: 5, b: 13, c: 7}
+hash2 = {b: 5, c: 8, d: 91, e: 99}
+hash3 = {a: 1, b: 34}
+hash4 = {c: 9, d: 8}
+
+intersection(hash1, hash2) ➞ [{b: 13, c: 7}, {b: 5, c: 8}]
+
+intersection(hash1, hash4) ➞ [{c: 7}, {c: 9}]
+
+intersection(hash3, hash4) ➞ [{}, {}]
+Notes
+If no keys are shared between both hashes, return an array of empty hashes (see last example).
