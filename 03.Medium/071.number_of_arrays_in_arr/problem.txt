@@ -1,0 +1,13 @@
+Number of Arrays in an Array
+Return the total number of arrays inside a given array.
+
+Examples
+num_of_subarrays([[1, 2, 3]]) ➞ 1
+
+num_of_subarrays([[1, 2, 3], [1, 2, 3], [1, 2, 3]]) ➞ 3
+
+num_of_subarrays([[1, 2, 3], [1, 2, 3], [1, 2, 3], [1, 2, 3]]) ➞ 4
+
+num_of_subarrays([1, 2, 3]) ➞ 0
+Notes
+N/A
