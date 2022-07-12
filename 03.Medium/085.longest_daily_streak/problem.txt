@@ -1,0 +1,12 @@
+Longest Daily Streak
+Create a function that takes an array of booleans that represent whether or not a player has logged into a game that day. Output the longest streak of consecutive logged in days.
+
+Examples
+daily_streak([true, true, false, true]) ➞ 2
+
+daily_streak([false, false, false]) ➞ 0
+
+daily_streak([true, true, true, false, true, true]) ➞ 3
+Notes
+Return your output as an integer.
+If a given array is all false, return 0 (see example #2).

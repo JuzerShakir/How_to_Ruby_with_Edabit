@@ -1,0 +1,13 @@
+Is it True?
+In this challenge you will be given a relation between two numbers, written as a string. Write a function that determines if the relation is true or false.
+
+Examples
+is_it_true("2=2") ➞ true
+
+is_it_true("8<7") ➞ false
+
+is_it_true("5=13") ➞ false
+
+is_it_true("15>4") ➞ true
+Notes
+Tests will only have three types of relations: =, >, and <
