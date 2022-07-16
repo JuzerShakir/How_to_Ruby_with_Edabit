@@ -1,0 +1,47 @@
+Construct and Deconstruct
+Given a string, create a function that outputs an array, building and deconstructing the string letter by letter. See the examples below for some helpful guidance.
+
+Examples
+construct_deconstruct("Hello") ➞ [
+  "H",
+  "He",
+  "Hel",
+  "Hell",
+  "Hello",
+  "Hell",
+  "Hel",
+  "He",
+  "H"
+]
+
+construct_deconstruct("edabit") ➞ [
+  "e",
+  "ed",
+  "eda",
+  "edab",
+  "edabi",
+  "edabit",
+  "edabi",
+  "edab",
+  "eda",
+  "ed",
+  "e"
+]
+
+construct_deconstruct("the sun") ➞ [
+  "t",
+  "th",
+  "the",
+  "the ",
+  "the s",
+  "the su",
+  "the sun",
+  "the su",
+  "the s",
+  "the ",
+  "the",
+  "th",
+  "t"
+]
+Notes
+Include spaces (see example #3).
