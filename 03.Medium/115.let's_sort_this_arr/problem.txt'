@@ -1,0 +1,14 @@
+Let's Sort This Array!
+Create a function that takes an array of numbers arr, a string str and return an array of numbers as per the following rules:
+
+"Asc" returns a sorted array in ascending order.
+"Des" returns a sorted array in descending order.
+"None" returns an array without any modification.
+Examples
+asc_des_none([4, 3, 2, 1], "Asc" ) ➞ [1, 2, 3, 4]
+
+asc_des_none([7, 8, 11, 66], "Des") ➞ [66, 11, 8, 7]
+
+asc_des_none([1, 2, 3, 4], "None") ➞ [1, 2, 3, 4]
+Notes
+N/A
