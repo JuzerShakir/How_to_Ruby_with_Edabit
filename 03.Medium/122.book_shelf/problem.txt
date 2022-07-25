@@ -1,0 +1,29 @@
+Book Shelf
+Create a Book class that has two accessors :
+
+title
+author
+and two additional methods:
+
+A method named getTitle that returns: "Title: " + the instance title.
+A method named getAuthor that returns: "Author: " + the instance author.
+and instantiate this constructor by creating 3 new books:
+
+Pride and Prejudice - Jane Austen (pp)
+Hamlet - William Shakespeare (h)
+War and Peace - Leo Tolstoy (wp)
+The name of the new hash instances pp, h, and wp, respectively.
+
+For instance, if I instantiated the following book:
+
+Harry Potter - J.K. Rowling (hp)
+I would get the following properties and methods:
+
+Examples
+hp.title ➞ "Harry Potter"
+hp.author ➞ "J.K. Rowling"
+hp.get_title ➞ "Title: Harry Potter"
+hp.get_author ➞ "Author: J.K. Rowling"
+Notes
+Read more about classes in Ruby, view Resources.
+Remember, after you've finished writing the class, you must instantiate it through the creation of new instances.
