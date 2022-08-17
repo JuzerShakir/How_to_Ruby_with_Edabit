@@ -1,0 +1,20 @@
+Triple Letter Groupings
+Given a string, return a sorted array of words formed from the first three letters, then the next three letters, shifting by only one.
+
+Worked Example
+three_letter_collection("edabit") ➞ ["abi", "bit", "dab", "eda"]
+# 1st word: "eda"
+# 2nd word: "dab"
+# 3rd word: "abi"
+# 4th word: "bit"
+# Remember to sort the array!
+Examples
+three_letter_collection("slap") ➞ ["lap", "sla"]
+
+three_letter_collection("click") ➞ ["cli", "ick", "lic"]
+
+three_letter_collection("cat") ➞ ["cat"]
+
+three_letter_collection("hi") ➞ []
+Notes
+Return an empty array if given a word with less than 3 letters.
